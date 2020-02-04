@@ -1,4 +1,4 @@
-#Facebook Group Post Scraper
+# Facebook Group Post Scraper
 
 
 Java tool `(based on Selenide and Web Driver)` that  scrapes facebook group posts periodically and store them into database
@@ -8,7 +8,7 @@ Java tool `(based on Selenide and Web Driver)` that  scrapes facebook group post
 - FireFox 60.3.0esr (64-bit);  
  
 
-####What does it scrape
+#### What does it scrape
 - post text
 - post images
 - post link
@@ -17,7 +17,7 @@ Java tool `(based on Selenide and Web Driver)` that  scrapes facebook group post
 - author link
 - author avatar
 
-####How it scrapes
+#### How it scrapes
 1. tool reads last `N` posts from specified facebook group
 2. store them into `database` (needs to be intalled on computer)
 3. wait `Z` minutes 
@@ -26,7 +26,7 @@ Java tool `(based on Selenide and Web Driver)` that  scrapes facebook group post
 `N`, `Z` and `database` parameters are configurable
 
 
-###Contact information
+### Contact information
 Feel free to tell me what extra features do you require
 
 `Linkedin` - https://www.linkedin.com/in/volodymyr-bondarchuk-b9397746/
