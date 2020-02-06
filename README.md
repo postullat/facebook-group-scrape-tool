@@ -3,7 +3,7 @@
 
 Java tool `(based on Selenide and Web Driver)` that  scrapes facebook group posts periodically and store them into database
 
-# Important news
+### Important news
 The tool has been developed to store data into Firebase.
 Currently, export data into `.xsl` file and `mysql` is under development
   
