@@ -62,6 +62,6 @@ Feel free to tell me what extra features do you require
 
 `email` - postullat2@gmail.com
 
-`telegram` - @postullat
+`telegram` - https://t.me/postullat
 
 `Skype` - postullat2@gmail.com
