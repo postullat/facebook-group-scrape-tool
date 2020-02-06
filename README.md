@@ -25,6 +25,31 @@ Java tool `(based on Selenide and Web Driver)` that  scrapes facebook group post
 
 `N`, `Z` and `database` parameters are configurable
 
+#### Run commands: 
+
+ 1. Open JAR with WinRAR and navigate to `BOOT-INF/classes/properties/PostDataToFirebase.properties`
+ 2. Adjust app parametrs `fb.login fb.pass`, `fb.group.url`, `posts.to.fetch` and save them into archive
+	More parameters you may find at `BOOT-INF/classes/application.properties`
+ 3. Run JAR: `java -jar fbreaper-MILESTONE-2.1.jar --scheduling.enabled=false`
+ 4. Run JAR with scheduling: `java -jar target\fbreaper-MILESTONE-2.1.jar --scheduling.enabled=true --cron.expression="* */5 * * * *"`
+ 
+### Availabel parameters:  
+  
+**PostDataToFirebase.properties:**  
+ 
+    fb.login fb.pass   
+    fb.group.url
+    posts.to.fetch 
+     
+**application.properties:**  
+ 
+    firebase.jsonfile.path
+    firebase.storage.bucket
+    cron.expression
+    fb.big.images.limit
+    fb.big.images.load.timeout
+    selenide.timeout
+
 
 ###Contact information
 Feel free to tell me what extra features do you require
