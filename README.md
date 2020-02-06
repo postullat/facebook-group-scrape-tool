@@ -61,3 +61,7 @@ Feel free to tell me what extra features do you require
 `Linkedin` - https://www.linkedin.com/in/volodymyr-bondarchuk-b9397746/
 
 `email` - postullat2@gmail.com
+
+`telegram` - @postullat
+
+`Skype` - postullat2@gmail.com
