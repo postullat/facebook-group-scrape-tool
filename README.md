@@ -58,7 +58,7 @@ Currently, export data into `.xsl` file and `mysql` is under development
 ### Contact information
 Feel free to tell me what extra features do you require
 
-`Linkedin` - https://www.linkedin.com/in/volodymyr-bondarchuk-b9397746/
+`Linkedin` - http://bit.ly/2SoVmwW
 
 `email` - postullat2@gmail.com
 
