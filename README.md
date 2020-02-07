@@ -1,4 +1,4 @@
-# Facebook Group Posts Scraper
+# Verba FGPS - Facebook Group Posts Scraper
 
 
 Java tool `(based on Selenide and Web Driver)` that  scrapes facebook group posts periodically and store them into database
