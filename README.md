@@ -58,8 +58,6 @@ Currently, export data into `.xsl` file and `mysql` is under development
 ### Contact information
 Feel free to tell me what extra features do you require
 
-`Linkedin` - http://bit.ly/2vdSavP
-
 `email` - postullat2@gmail.com
 
 `telegram` - https://t.me/postullat
