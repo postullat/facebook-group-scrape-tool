@@ -1,11 +1,12 @@
 # Verba FGPS - Facebook Group Posts Scraper
 
 
-Java tool `(based on Selenide and Web Driver)` that  scrapes facebook group posts periodically and store them into database
+This tool is considering as a synchronization mechanism between FB group and site storage
+Written in Java and `Selenide Web Driver`. Simple `jar` file scrapes facebook group posts and push them to database
 
 ### Important news
 The tool has been developed to store data into Firebase.
-Currently, export data into `.xsl` file and `mysql` is under development
+Currently, export data into `.xsl` file and `postgres` is under development
   
 #### Requirements:  
 - java 8;   
