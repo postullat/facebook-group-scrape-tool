@@ -6,12 +6,7 @@ Written in Java and `Selenide Web Driver`. Simple `jar` file scrapes facebook gr
 
 ### Important news
 The tool has been developed to store data into Firebase.
-Currently, export data into `.xsl` file and `postgres` is under development
-  
-#### Requirements:  
-- java 8;   
-- FireFox 60.3.0esr (64-bit);  
- 
+Currently, export data into `.xsl` file and `postgres` is not supported 
 
 #### What does it scrape
 - post text
@@ -30,13 +25,20 @@ Currently, export data into `.xsl` file and `postgres` is under development
 
 `N`, `Z` and `database` parameters are configurable
 
-#### Run commands: 
+#### Requirements:  
+- java 8;   
+- maven 3.6.0
+- FireFox 60.3.0esr (64-bit);  
 
- 1. Open JAR with WinRAR and navigate to `BOOT-INF/classes/properties/PostDataToFirebase.properties`
- 2. Adjust app parametrs `fb.login fb.pass`, `fb.group.url`, `posts.to.fetch` and save them into archive
-	More parameters you may find at `BOOT-INF/classes/application.properties`
- 3. Run JAR: `java -jar fbreaper-MILESTONE-2.1.jar --scheduling.enabled=false`
- 4. Run JAR with scheduling: `java -jar target\fbreaper-MILESTONE-2.1.jar --scheduling.enabled=true --cron.expression="* */5 * * * *"`
+#### Build project: 
+ 1. Adjust project settings in `PostDataToFirebase.properties` and `application.properties` files
+ 2. Navigate to project dir from cmd
+ 2. Run `mvn clean install` command
+ 
+#### Run project: 
+
+ 1. Run JAR: `java -jar fbreaper-MILESTONE-2.1.jar --scheduling.enabled=false`
+ 2. Run JAR with scheduling: `java -jar target\fbreaper-MILESTONE-2.1.jar --scheduling.enabled=true --cron.expression="* */5 * * * *"`
  
 ### Availabel parameters:  
   
@@ -54,13 +56,3 @@ Currently, export data into `.xsl` file and `postgres` is under development
     fb.big.images.limit
     fb.big.images.load.timeout
     selenide.timeout
-
-
-### Contact information
-Feel free to tell me what extra features do you require
-
-`email` - postullat2@gmail.com
-
-`telegram` - https://t.me/postullat
-
-`Skype` - postullat2@gmail.com
