@@ -4,7 +4,7 @@
 This tool is considering as a synchronization mechanism between FB group and site storage
 Written in Java and `Selenide Web Driver`. Simple `jar` file scrapes facebook group posts and push them to database
 
-### Important news
+### Important info
 The tool has been developed to store data into Firebase.
 Currently, export data into `.xsl` file and `postgres` is not supported 
 
