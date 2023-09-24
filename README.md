@@ -1,7 +1,5 @@
 # Verba FGPS - Facebook Group Posts Scraper
 
-## !!! This tool is not working anymore since facebook changed layout !!!
-
 This tool was responsible as synchronization mechanism between FB group and site storage
 Written in Java and `Selenide Web Driver`. Simple `jar` file scrapes facebook group posts and push them to database
 
@@ -58,3 +56,4 @@ Currently, export data into `.xsl` file and `postgres` is not supported
     fb.big.images.load.timeout
     selenide.timeout
 
+Questions? Feel free to email me postullat2@gmail.com
